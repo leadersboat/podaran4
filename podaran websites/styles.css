@@ -1,0 +1,1118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* width: 100%;     */
+    overflow-x: hidden;    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.background-image {
+    background-image: url('./frame-with-leaves-it-frame-with-words-autumn-it.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 115vh; /* Adjust height as per your requirement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px; /* Adjust width as per your requirement */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    object-fit: cover;    
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+/* 
+carousel END*/
+
+.ProductList{
+    margin: 0;
+    padding: 0;
+    overflow-Y: hidden;
+    box-sizing: border-box;
+}
+/********************************************************************/
+/* 
+POTATOCHIPS - START
+*/
+
+
+.title-Chips{
+    position: absolute;
+    top: 1%;
+    color: white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+}
+
+
+.potato{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+   
+}
+.chipsSubtitle{
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.SectionChips{
+    background-color: hsl(34, 82%, 59%);        
+    position: relative;    
+    margin-bottom: -5px;
+    width: 100%;   
+    height: 340vh; 
+}
+
+.oldpattern{
+    background-image: url("./images/patterns/vintage.png");    
+    background-repeat: no-repeat;
+    background-position: center;   
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+/* 
+POTATOCHIPS - END
+*/
+/********************************************************************/
+/* 
+MURUKU  - START
+*/
+.title-Muruku{
+    position: absolute;
+    top: 1%;
+    color: white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.muruku{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.SectionMuruku{
+    background-color: rgb(74, 52, 126);             
+    background-size: 400px 400px;
+    position: relative;    
+    width: 100%;   
+    height: 450vh; 
+    margin-bottom: -5px;
+}
+
+.flowerpattern{
+    background-image: url("./images/patterns/flowerdesign.png");
+    position: relative;
+    width: 100%;   
+    height: 100%;
+    background-position: center;
+    background-repeat:repeat;   
+    opacity: 0.1;  
+    /* background-size: 1500px; */
+    
+    background-size:cover;  
+}
+
+.MurukuSubtitle{
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;   
+}
+
+.doubleRing img{
+    margin-left: 2rem;
+}
+
+.Minikuzhal img{
+    margin-left: 3rem;
+}
+
+.minimullu img{
+    margin-left: 3rem;
+}
+
+.spring {
+    margin-left: 3rem;
+}
+
+.thenkuzhal {
+    margin-left: 3rem;
+}
+/* 
+MURUKU  - END
+*/
+/********************************************************************/
+/* 
+SWEETS  - START
+*/
+.SectionSweets{
+    position: relative;
+    background-color: rgb(207, 85, 166);
+}
+
+.candypattern{
+    background-image: url("./images/patterns/chocolates.png");
+    background-position: center;
+    background-repeat:repeat;
+    opacity: 0.1;
+     /* background-size: 1200px; */
+      background-size: 1000px 1000px ;
+    /* background-size:cover;   */
+}
+.background-sweets{
+    width: 100%;
+    height: 340vh;   
+    margin-bottom: -5px;
+}
+.title-Sweets{
+    position: absolute;
+    top: 1%;
+    color: rgb(253, 253, 253);
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.sweets{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+.SweetSubtitle{
+    color:rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* 
+SWEETS  - END
+*/
+/********************************************************************/
+/* 
+NEW ADDITION  - START
+*/
+
+.SectionNewAddition{
+    position: relative;
+    background-color: rgb(38, 126, 20);
+    position: relative;    
+    width: 100%;   
+    height: 420vh;     
+}
+
+.veggepattern{
+ background-image: url("./images/patterns/chips.png");
+ opacity: 0.2;
+ background-position: center;
+ background-repeat:repeat;
+ /* background-size: 600px 600px ; */
+ background-size: 700px; 
+ height: 100%;
+ width: 100%;
+}
+
+.NewLaunch{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-NewLauch{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.NewAdditionSubtitle{
+    color:white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+/* 
+NEW ADDITION  - END
+*/
+/********************************************************************/
+/* 
+HEALTHY - START
+*/
+
+.SectionHealthy{
+    position: relative;
+    background-color: rgb(116, 61, 35);
+    width: 100%;
+    height: 370vh;   
+    margin-bottom: -8px;
+}
+
+.leavepattern{
+    background-image: url("./images/patterns/riverpattern.png");
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    background-size:cover;  
+}
+
+.Healthy{
+    position: absolute;
+    width: 100%;
+    top:8%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-Healthy{
+    position: absolute;
+    top: 1%;
+    color:rgb(255, 255, 255);
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.HealthySubtitle{
+    color:rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+
+/* 
+HEALTHY - END
+*/
+/********************************************************************/
+/* 
+TRADITION - START
+ */
+
+ .SectionTradition{
+    position: relative;
+    background-color: rgb(255, 238, 5);
+    width: 100%;
+    height: 400vh;   
+    margin-bottom: -5px;
+ }
+
+ .godpattern{
+    background-image: url("./images/patterns/ancient.png");
+    opacity: 0.1;
+    background-position: center;
+    background-repeat:repeat;
+    background-size: 600px 600px ;
+    height: 100%;
+    width: 100%;
+ }
+
+ .Tradition{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+ }
+
+ .title-Tradition{
+    position: absolute;
+    top: 1%;
+    color:rgb(129, 4, 4);
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+ }
+
+ .TraditionSubtitle{
+    color:rgb(160, 5, 5);
+    font-size: 1.5rem;
+    margin-left: 2rem;
+ }
+
+ /* 
+TRADITION -END
+ */
+/********************************************************************/
+ /* 
+ PARTY-PACK - START
+  */
+
+.SectionPartyPacks{
+    position: relative;
+    background-color: rgb(236, 38, 38);
+    width: 100%;
+    height: 240vh;   
+    margin-bottom: -5px;
+}
+
+.funpattern{
+    background-image: url("./images/patterns/love.png");
+    opacity: 0.5;
+    background-position: center;   
+    height: 100%;
+    width: 100%;
+    background-size:800px 1200px; 
+}
+
+.PartyPacks{
+    position: absolute;
+    width: 100%;
+    top:10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+
+.title-Party{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.PartySubtitle{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+ /* 
+ PARTY-PACK - END
+  */
+/********************************************************************/
+/* 
+HIGHSALE - START 
+*/
+
+.SectionHighSale{
+    position: relative;
+    background-color:rgb(29, 159, 199);
+    width: 100%;
+    height: 270vh;   
+    margin-bottom: -5px;
+}
+
+.spiralpattern{
+    background-image: url("./images/patterns/fingerprint.png");
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;    
+    background-position: center;  
+    /* background-repeat: repeat;      */
+    /* background-size:cover; */
+    background-size:1700px 1700px; 
+}
+
+.HighSale{
+    position: absolute;
+    width: 100%;
+    top:10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-HighSale{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+}
+
+.HighSaleSubtitle{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+/* 
+HIGHSALE - END 
+*/
+/********************************************************************/
+/* 
+DEMAND - START 
+*/
+.SectionDemand{
+    position: relative;
+    background-color: rgb(163, 206, 99);
+    width: 100%;
+    height: 270vh;   
+    margin-bottom: -5px;
+}
+
+.DropPattern{
+    background-image: url("./images/patterns/smoke.png");
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;  
+    background-position: center;     
+    background-size:cover;  
+}
+
+.Demand{
+    position: absolute;
+    width: 100%;
+    top:8%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-Demand{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+}
+
+.DemandSubtitle{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+/* 
+DEMAND - START 
+*/
+
+/********************************************************************/
+/* 
+RESPPONSIVE LAYOUT 
+*/
+/********************************************************************/
+
+
+@media (min-width: 575px) {
+    /* POTATOCHIPS - START */
+.potato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:8%;
+}
+.SectionChips{
+    height: 200vh; 
+}
+
+/* MURUKU */
+.muruku{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:9%;
+}
+
+.SectionMuruku{       
+    height: 260vh;       
+}
+
+/* SWEETS  */
+.sweets{
+    display: grid;
+    grid-template-columns: 1fr;
+    top:8%;
+}
+.SectionSweets{
+    height: 350vh;
+}
+
+/* NEW ADDITION */
+
+.NewLaunch{
+    display: grid;
+    grid-template-columns: 1fr;
+    top:8%;
+}
+
+.SectionNewAddition{
+    height: 440vh;
+}
+
+
+}
+
+/********************************************************************/
+
+@media (min-width: 768px) {
+     /* POTATOCHIPS - START */
+    .potato{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        top:8%;
+    }    
+
+    .SectionChips{
+        height: 220vh; 
+    }
+    /* MURUKU */
+    .muruku{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:8%;
+    }
+
+    .SectionMuruku{       
+        height: 270vh;       
+    }
+        /* SWEETS */
+    .sweets{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:8%;
+    }
+
+    .SectionSweets{
+        height: 190vh;
+    }
+    /* NEW ADDITION */
+
+    .NewLaunch{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:10%;
+    }
+    .SectionNewAddition{
+        height: 220vh;
+    }
+
+/* HEALTH */
+
+    .Healthy{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:10%;
+    }
+
+    .SectionHealthy{
+        height: 240vh;
+    }
+
+    /* TRADITION */
+    .Tradition{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:10%;
+    }
+
+    .SectionTradition{
+        height: 230vh;
+    }
+
+    /* PARTY-PACK */
+    .PartyPacks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:15%;
+    }
+
+    .SectionPartyPacks{
+        height: 140vh;
+    }
+
+/* HIGHSALE */
+
+    .HighSale{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:12%;
+    }   
+
+    .SectionHighSale{
+        height: 180vh;
+    }
+    /* Demand */
+
+    .Demand{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        top:12%;
+    }
+
+    .SectionDemand{
+        height: 180vh;
+    }   
+}
+
+/********************************************************************/
+
+@media (min-width: 992px) {
+     /* POTATOCHIPS - START */
+    .potato{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        top:10%;
+    }    
+    .SectionChips{
+        height: 180vh; 
+        margin-bottom: -5px;
+    }
+
+    /* MURUKU */
+    .muruku{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:12%;
+    }
+
+    .title-Muruku{
+        font-size: 3rem;
+    }
+
+    .SectionMuruku{       
+        height: 180vh;       
+    }
+
+    /* SWEETS */
+    .sweets{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:12%;
+    }
+    .SectionSweets{
+        height: 170vh;
+    }
+
+    .title-Sweets{
+        font-size: 3rem;
+    }
+/* NEW ADDITION */
+
+    .NewLaunch{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:12%;
+    }
+    .SectionNewAddition{
+        height: 180vh;
+    }
+
+    .title-NewLauch{
+        font-size: 3rem;
+    }
+
+/* HEALTH */
+
+    .Healthy{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:13%;
+    }
+
+    .SectionHealthy{
+        height: 190vh;
+    }
+
+    .title-Healthy{
+        font-size: 3rem; 
+    }
+
+/* TRADITION */
+    .Tradition{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:13%;
+    }
+
+    .SectionTradition{
+        height: 190vh;
+    }
+ 
+/* PARTY-PACK */
+    .PartyPacks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:17%;
+    }    
+
+/* HIGHSALE */
+
+    .HighSale{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:16%;
+    }
+
+    .SectionHighSale{
+        height: 140vh;
+    }
+
+/* Demand */
+
+    .Demand{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top:16%;
+    }
+
+    .SectionDemand{
+        height: 140vh;
+    }
+}
+
+/********************************************************************/
+
+@media (min-width: 1200px) {        
+     /* POTATOCHIPS - START */
+
+     .ChipsImage img{
+        width:300px;
+    }
+
+    .SectionChips{
+        height: 220vh;        
+    }
+
+     .title-Chips{
+        font-size: 1.7rem;
+    }
+    .potato{
+        top:7%;
+    }
+
+    .chipsSubtitle{
+        font-size: 2rem;
+    }
+
+    /* MURUKU */
+     .muruku{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        top:11%;
+    }
+    
+    .murukuImage img{
+        width:300px;
+    }
+    .SectionMuruku{       
+        height: 230vh;       
+    }
+    
+    .MurukuSubtitle{
+        font-size: 2rem;
+    }
+
+    /* SWEETS */
+    .SweetSubtitle{
+        font-size: 2rem;
+    }
+    
+    .sweetImage img{
+        width:300px;
+    }
+    .peanut img ,.sesame img{
+        width:200px;
+    }
+
+    .SectionSweets{
+        height: 200vh;
+    }    
+    /* NEW LAUNCH */
+    .NewAdditionSubtitle{
+        font-size: 2rem;
+    }
+    .NewAdditionImage img{
+        width:350px;
+    }
+
+    .SectionNewAddition{
+        height: 240vh;
+    }
+
+    /* HEALTHY */
+    .HealthySubtitle{
+        font-size: 2rem;
+    }
+
+    .ImgHealthy img{
+        width:350px;
+    }
+
+    .SectionHealthy{
+        height: 230vh;
+    }
+    /* Tradition */
+    .Tradition{
+        top:15%;
+    }
+    
+    .SectionTradition{
+        height: 250vh;
+    }
+    .title-Tradition{
+        font-size: 3rem;
+    }
+
+    .TraditionSubtitle{
+        font-size: 2rem;
+    }
+
+    .ImgTradition img{
+        width: 300px;
+    }
+    /* PARTY-PACK */
+    .PartyPacks{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        top:15%;
+    }
+
+    .ImagePartyPacks img{
+        width: 275px;
+    }
+
+    .SectionPartyPacks{
+    height: 190vh;
+    }
+
+    .title-Party{
+        font-size: 3rem;
+    }
+
+    .PartySubtitle{
+        font-size: 2rem;
+    }
+
+    /* HIHGSALE */
+    .title-HighSale{
+        font-size: 3rem;
+    }
+
+    .HighSaleSubtitle{
+        font-size: 2rem;
+    }
+
+    .ImageHighSale img{
+        width: 300px;
+    }
+
+    .SectionHighSale{
+        height: 180vh;
+    }
+    /* DEMAND */
+    .title-Demand{
+        font-size: 3rem;
+    }
+
+    .DemandSubtitle{
+        font-size: 2rem;
+    }
+   
+    .DemandImg img{
+        width: 300px;
+    }
+
+    .SectionDemand{
+        height: 170vh;
+    }
+}
+
+@media (min-width: 1400px) {
+   
+}
+
+/********************************************************************/
+/* 
+SCROLL EFFECTS & ANIMATION
+*/
+/********************************************************************/
+
+.LeftDirection {
+    width: 300px;
+    transform: translateX(-400px); 
+    opacity: 0;
+    animation-delay: 0.7s;
+    animation-duration: 1s;
+    /* transition: transform 0.7s, opacity 0.7s; */
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.LeftDirection.visible {
+    transform: translateY(0); 
+    opacity: 1;
+    animation: slideIn 1s forwards;
+}
+
+
+/* SCROLL EFFECT NEW  */
+
+  
+  
+
+
+   
+   
+    /* background-origin: border-box; */
+    /* background-size:auto; */
+    /* background-size:contain; */
+    /* background-size:cover; */
+  
+
+  /* ************************************************************************************ */
+
+  /* HEADING STYLE */
+
+  .Subheading h1 {
+    /* font-size:26px;  */
+    /* font-weight:700;   */
+    /* letter-spacing:1px;  */
+    /* text-transform:uppercase;  */
+    /* width:160px;  */
+    /* text-align:center;  */
+    /* margin:auto;  */
+    /* white-space:nowrap;  */
+    /* padding-bottom:13px; */
+  }
+  .Subheading h1:before {
+      background-color: #c50000;
+      content: '';
+      display: block;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 5px;
+  }
+  .Subheading h1:after {
+      background-color: #c50000;
+      content: '';
+      display: block;
+    position:absolute; right:0; bottom:0;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 0.25em;
+  }
+  /* ************************************************************************* */
+
+  .Heading h1 {
+    position:relative; 
+    font-size:2rem; 
+    font-weight:700;  
+    letter-spacing:0.1rem; 
+    text-transform:uppercase; 
+    width:15rem; 
+    /* text-align:center;  */
+    margin:auto; 
+    white-space:nowrap; 
+    border:2px solid #222;
+    padding:5px 11px 3px 11px;
+  }
+  .Heading h1:before, .Heading h1:after {
+      background-color: #c50000;
+      position:absolute; 
+      content: '';
+      height: 7px;  
+      width: 7px; 
+      border-radius:50%;
+      bottom: 20px;
+  }
+  .Heading h1:before {
+     left:-20px;
+  }
+  .Heading h1:after {
+     right:-20px;
+  }
